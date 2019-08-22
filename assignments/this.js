@@ -21,7 +21,7 @@
 // code example for Window Binding
 
 function cat(){
-    console.log(this.meow);
+    console.log(this);
 }
 cat();
 const meow = 'meowwww';
